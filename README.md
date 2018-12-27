@@ -42,4 +42,4 @@ V0.9 2018.DEC.27 基础功能完成，可以凑合使用，将会持续更新，
 
 # 不求捐赠但求领红包
 
-<img src="https://github.com/50Death/CipheredSocketChat/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg"width="350"height="520"alt="图片加载失败"/>
+![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg)
