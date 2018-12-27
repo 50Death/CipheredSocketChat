@@ -40,6 +40,14 @@ V0.9 2018.DEC.27 基础功能完成，可以凑合使用，将会持续更新，
 
 *证书文件路径无法在运行时更改，必须在代码中做出相应更改，没有RSA证书或没有将其放在正确位置会使程序无法正确运行
 
+## 文件完整性验证
+```
+Military.QQ.jar
+MD5:    b797d110fd1de5e97ae8a756440fdb32
+SHA1:   8d3d25b135777d2a8fd9b0b0eb07e8821d7d986d
+SHA256: d6d484324798f5d708f1cad9f5111b6f3e2fe2babb10676cd84df61e43ed80c8
+```
+
 # 不求捐赠但求领红包
 
 ![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg)
