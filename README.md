@@ -22,7 +22,7 @@ IntelliJ IDEA
 
 然后对上述内容进行证书签名，防止伪造和中间人攻击
 
-![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/QQ%E6%88%AA%E5%9B%BE20181227140513.png)
+![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/QQ%E6%88%AA%E5%9B%BE20181227142345.png)
 
 ## 版本说明
 V0.9 2018.DEC.27 基础功能完成，可以凑合使用，将会持续更新，周期不定
