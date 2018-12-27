@@ -39,3 +39,7 @@ V0.9 2018.DEC.27 基础功能完成，可以凑合使用，将会持续更新，
 受限于TCP/IP连接模式，无公网IP地址无法当主机Server，即使用Client模式时，对方IP地址Des IP不应当以192.168开头，除非您与对方处在同一局域网内
 
 *证书文件路径无法在运行时更改，必须在代码中做出相应更改，没有RSA证书或没有将其放在正确位置会使程序无法正确运行
+
+# 不求捐赠但求领红包
+
+<img src="https://github.com/50Death/CipheredSocketChat/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg"width="350"height="520"alt="图片加载失败"/>
