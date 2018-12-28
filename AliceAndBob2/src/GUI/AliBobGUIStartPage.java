@@ -2,7 +2,6 @@ package GUI;
 
 import edu.lyc.crypt.AESCrypt;
 import edu.lyc.crypt.BaseCert;
-import edu.lyc.crypt.MD5;
 import edu.lyc.crypt.RSA;
 import edu.lyc.tcp.Client;
 import edu.lyc.tcp.Server;
@@ -15,7 +14,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.security.SecureRandom;
 import java.util.HashMap;
 
 public class AliBobGUIStartPage extends JFrame {
@@ -371,17 +369,15 @@ public class AliBobGUIStartPage extends JFrame {
     /**
      * * TODO 当前密文格式：
      * * TODO
-     * * TODO 明文  ->  AES加密（明文，随机数作为密码）    ->  RSAPublicKey加密随机数  -> 对以上信息取MD5 -> 对MD5消息摘要RSA证书签名
-     * * TODO Apache Random ↑                      RSA生成本次连接所需公钥，私钥↑                   线下进行RSA证书交换↑
+     * * TODO 明文  ->  AES加密（明文，随机数作为密码）    ->  RSAPublicKey加密随机数  -> 对RSA密文+AES密文进行RSA证书签名  ->  确定顺序发送
+     * * TODO Apache Random ↑                      RSA生成本次连接所需公钥，私钥↑   线下进行RSA证书交换↑
      * * TODO
      * * TODO 1. 公钥交换，明文发送，前加标识符"$$"，TCP连接后立即发送，双方每次连接仅交换一次公钥（216字节）
      * * TODO 2. 用户输入：明文
      * * TODO 3. AES密文（不定长）AND 随机数明文（64字节）
      * * TODO 4. AES密文（不定长）AND RSA对方公钥加密的随机数（172字节）
-     * * TODO 5. 顺序确定：[RSA对方公钥加密的随机数（172字节）+ AES密文（不定长）]AND  MD5（32字节）
-     * * TODO 6. [RSA对方公钥加密的随机数（172字节）+ AES密文（不定长）]AND RSA(MD5)（344字节）
-     * * TODO 待发送，规定格式：【RSA对方公钥加密的随机数（172字节）+ RSA(MD5)（344字节）+MD5（32字节）+ AES密文（不定长）】
-     * * TODO 每个Socket包留给AES密文 字节，AES明文（发送内容）320字节，UNICODE下不得多于80个汉字
+     * * TODO 5. [RSA对方公钥加密的随机数（172字节）+ AES密文（不定长）]AND RSA(中括号内容)（344字节）
+     * * TODO 待发送，规定格式：【RSA对方公钥加密的随机数（172字节）+ RSA签名（344字节）+ AES密文（不定长）】
      * <p>
      * 加密函数
      *
@@ -434,6 +430,11 @@ public class AliBobGUIStartPage extends JFrame {
         return result;
     }
 
+    /**
+     * 解密函数
+     * @param msg 收到的消息
+     * @return 明文
+     */
     String deCryptReceive(String msg) {
         //将密文拆分
         String RSACipheredText = msg.substring(0, 172);//RSA加密了的用于解密AES的秘钥
