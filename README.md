@@ -22,7 +22,11 @@ IntelliJ IDEA
 
 然后对上述内容进行证书签名，防止伪造和中间人攻击
 
-![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/QQ%E6%88%AA%E5%9B%BE20181227142345.png)
+程序加密算法如下：
+
+![加密算法图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/Pictures/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%20(1).png)
+
+![程序图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/Pictures/QQ%E6%88%AA%E5%9B%BE20181227142345.png)
 
 ## 版本说明
 V0.9 2018.DEC.27 基础功能完成，可以凑合使用，将会持续更新，周期不定
@@ -50,4 +54,4 @@ SHA256: d6d484324798f5d708f1cad9f5111b6f3e2fe2babb10676cd84df61e43ed80c8
 
 # 不求捐赠但求领红包
 
-![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg)
+![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/Pictures/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg)
