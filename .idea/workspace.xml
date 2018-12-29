@@ -8,9 +8,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AliceAndBob2/src/GUI/AliBobGUIStartPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
-    <option name="y" value="96" />
+    <option name="x" value="257" />
+    <option name="y" value="117" />
     <option name="width" value="1561" />
     <option name="height" value="941" />
   </component>
@@ -19,32 +35,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CipheredSocketChat" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CipheredSocketChat" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="AliceAndBob2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CipheredSocketChat" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="AliceAndBob2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CipheredSocketChat" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="AliceAndBob2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="GUI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="CipheredSocketChat" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="AliceAndBob2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="GUI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AliBobGUIStartPage" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -84,16 +108,18 @@
       <updated>1545829780145</updated>
       <workItem from="1545911749057" duration="13000" />
       <workItem from="1545981814955" duration="7000" />
+      <workItem from="1546008251351" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20000" />
+    <option name="totallyTimeSpent" value="62000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="96" width="1561" height="941" extended-state="0" />
+    <frame x="257" y="117" width="1561" height="941" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25316456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25649568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -125,6 +151,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AliceAndBob2/AliceAndBob2.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AliceAndBob2/src/GUI/AliBobGUIStartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
